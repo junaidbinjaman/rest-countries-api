@@ -1,0 +1,122 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background: linear-gradient(to right, #dff9fb, #bdc3c7);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+}
+
+.search_contents {
+    width: 720px;
+    height: auto;
+    padding: 10px 20px;
+    border: 1px solid;
+    margin: 0 auto;
+    background: rgba( 144, 19, 254, 0.20);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4.0px);
+    -webkit-backdrop-filter: blur( 4.0px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.search_contents p {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-shadow: 0.7px 0.8px 1px white;
+}
+
+.search-h1 {
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: -2px -2px 2px grey;
+}
+
+.input-section {
+    width: 550px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px 0;
+}
+
+.input {
+    width: 360px;
+    padding: 15px 10px;
+    font-size: 17px;
+    border: 1px solid #0000002e;
+    background: rgba(255, 255, 255, 0.363);
+}
+
+.input:focus {
+    background: #fff;
+    outline: lightblue;
+}
+
+.btn-search {
+    width: 150px;
+    border: none;
+    font-size: 17px;
+    color: white;
+    background: #95a5a6;
+    cursor: pointer;
+}
+
+.first-circle i {
+    font-size: 300px;
+    color: #95a5a6;
+    position: absolute;
+    top: 5%;
+    left: 23%;
+    z-index: 1 !important;
+    border: 2px solid #95a5a6;
+    padding: 40px;
+    border-radius: 50%;
+}
+
+.divider {
+    width: 400px;
+    height: 2px;
+    background: white;
+    margin: 0 auto;
+}
+
+.result__container {
+    width: 720px;
+    height: auto;
+    padding: 10px 20px;
+    border: 1px solid;
+    margin: 80px auto;
+    background: rgba( 144, 19, 254, 0.20);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4.0px);
+    -webkit-backdrop-filter: blur( 4.0px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    display: none;
+}
+
+.result__container h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.result__row {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.coll-6 h4,
+.colr-6 h4 {
+    font-size: 22px;
+}
